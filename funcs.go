@@ -4,12 +4,12 @@ import (
 	"fmt"
 )
 
-func Hello(s string) {
-	fmt.Printf("你好 %v\n", s)
+func Hello() {
+	fmt.Printf("你好 %v\n")
 }
 
-func HelloWorld(s string) {
-	fmt.Printf("你好 %v 欢迎你\n", s)
+func HelloWorld() {
+	fmt.Printf("你好 欢迎你\n")
 }
 
 
